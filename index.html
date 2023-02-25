@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/normalize.css"/>
+    <link rel="stylesheet" href="./resources/css/style.css"/>
+    <script src="./resources/app/app.js" defer></script>
+    <link rel="icon" href="./resources/images/af-logo.png" type="image/x-icon"/>
+    <link rel="mask-icon" href="./resources/images/af-logo.png" type="image/x-icon"/>
+    <title>Andrei Fo - Front-End Developer</title>
+  </head>
+
+  <body>
+    <div class="splash">
+      <h1 class="fade-in">ANDREI<span>FO<span></h1>
+    </div>
+    <header>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#welcome-section">01.Home</a></li>
+          <li><a href="#about-section">02.About</a></li>
+          <li><a href="#skills-section">03.Skills</a></li>
+          <li><a href="#work-section">04.Work</a></li>
+          <li><a href="#contact-section">05.Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <img src="./resources/images/sun.png" alt="light-mode-mobile" id="secIcon"/>
+      </div>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="#welcome-section"><span>01.</span>Home</a></li>
+            <li><a href="#about-section"><span>02.</span>About</a></li>
+            <li><a href="#skills-section"><span>03.</span>Skills</a></li>
+            <li><a href="#work-section"><span>04.</span>Work</a></li>
+            <li><a href="#contact-section"><span>05.</span>Contact</a></li>
+          </ul>
+      </div>
+    </header>
+    <script src="./resources/app/app.js"></script>
+    <div class="wrapper">
+      <div class="social-media">
+        <img src="./resources/images/sun.png" alt="light-mode" id="icon"/>
+        <a target="_blank" href="https://github.com/andreifo-dev">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title />
+            <g data-name="Github 1" id="Github_1">
+              <g data-name="&lt;Group&gt;" id="_Group_">
+                <path
+                  d="M12,.5A11.5,11.5,0,0,0,.5,12a11.82,11.82,0,0,0,9,11.5v-3h-1c-2.62,0-3.54-4-5-4,2.79,0,3.33,2,5,2a.89.89,0,0,0,1-1v-.35c-2.91-.82-5-3-5-5.65A5.26,5.26,0,0,1,6.07,7.84,3.16,3.16,0,0,1,6.5,4.5,5.26,5.26,0,0,1,8.88,6a9.14,9.14,0,0,1,6.24,0A5.26,5.26,0,0,1,17.5,4.5a3.16,3.16,0,0,1,.43,3.34A5.26,5.26,0,0,1,19.5,11.5c0,2.74-2.29,5-5.42,5.76a4.68,4.68,0,0,1,.42,2.24v4a11.82,11.82,0,0,0,9-11.5A11.5,11.5,0,0,0,12,.5Z"
+                  data-name="&lt;Path&gt;"
+                  id="_Path_"
+                  style="fill: none; stroke-linecap: round; stroke-linejoin: round;"/>
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/andrei-fo">
+          <svg
+            enable-background="new 0 0 183.836 179.8984"
+            id="linkedin"
+            version="1.1"
+            viewBox="0 0 183.836 179.8984"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+              <path d="M21.5663,0C9.0703,0,0,8.6172,0,20.488c0,11.8636,8.8907,20.4748,21.1367,20.4748c6.3516,0,11.8244-2.0584,15.828-5.9552   c3.84-3.738,5.9572-8.8944,5.9532-14.6132C42.6367,8.3868,33.8555,0,21.5663,0z M31.3867,29.2732   c-2.4804,2.4144-6.0272,3.6896-10.25,3.6896C13.4023,32.9628,8,27.834,8,20.488C8,13.0196,13.4531,8,21.5663,8   c7.9337,0,13.172,4.9392,13.3516,12.49C34.9179,23.9376,33.664,27.0564,31.3867,29.2732z"/>
+              <path d="M3.836,179.8984h35.9531V47.7208H3.836V179.8984z M11.836,55.7208h19.9531v116.1776H11.836V55.7208z"/>
+              <path d="M134.5939,47.7208c-16.672,0-26.8792,5.7536-32.7932,11.166l-1.1247-11.166H60v132.1776h39.836v-69.4708   c0-2.992,1.2107-9.2052,1.9727-10.8456c4.8124-10.3652,11.3044-10.3652,21.1364-10.3652c11.3244,0,20.8909,10.6192,20.8909,23.1876   v67.494h40v-74.6816C183.836,65.7128,158.3087,47.7208,134.5939,47.7208z M175.836,171.8984h-24v-59.494   c0-16.9064-13.2305-31.1876-28.8909-31.1876c-10.0468,0-21.4336,0-28.3944,14.998c-1.4376,3.0996-2.7147,10.5292-2.7147,14.2128   v61.4708H68V55.7208h25.4415l1.6328,16.1776h6.5544l1.172-1.8908c2.668-4.2948,11.1056-14.2868,31.7932-14.2868   c19.8632,0,41.2421,15.488,41.2421,49.496V171.8984z"/>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="email">
+        <a target="_blank" href="mailto:contact@andreifo.dev">
+          contact@andreifo.dev
+        </a>
+      </div>
+      <section id="welcome-section">
+        <div class="intro-text">
+          <p class="intro-p1"><span>01.</span>Hello, my name is</p>
+          <h1 class="intro-h1">ANDREI <span>FO</span></h1>
+          <p class="intro-bio">
+            I'm a self-taught <span class="fr-p">Front-End Developer</span> and a creative <span class='fr-p'>Web Designer</span>.</br>
+            <span class="sec-p">This is my Portofolio, so feel free to scroll-down and discover my work.</span>        
+          </p>
+        </div>
+      </section>
+      <section id="about-section">
+        <div class="about-title"> 
+          <h2>
+            <span class="numb">02.</span>About
+            <div class="line"></div>
+          </h2>
+        </div>
+        <div class="about-ctn">
+          <div class="about-text1">
+            <div class="about-t1">
+              <h3>Introduction</h3>
+              <p>
+                Hi, my name is Andrei and I am a web developer and programmer. 
+                I have a strong passion for building and creating websites and applications.
+                I love the feeling of satisfaction that comes with seeing my code
+                come to life and function as intended. In my free time,
+                you can often find me tinkering with new technologies and techniques in order
+                to constantly improve my skills and stay up-to-date.
+              </p>
+              </br>
+              </br>
+              <h3>Back in the days</h3>
+              <p>
+                I was introduced to computers in middle school and immediately 
+                became fascinated by the technology. Despite initial hesitation, 
+                I began to experiment with different programs and eventually taught myself how to code.
+             </div>
+             <div class="about-img">
+              <img src="./resources/images/andrei-photo.jpg" alt="Andrei Foca" width="auto" max-height="400px"/>
+              <div class="img-border" id="img-border"></div>
+            </div>
+          </div>
+          <div class="about-text2">
+            <h3>Initial steps towards programming</h3>
+            <p>
+              My first steps in programming began in high school where I learned C++. 
+              After developing a strong foundation in C++, I decided to explore other 
+              programming languages on my own. Later on I began by teaching myself HTML, CSS, and
+              JavaScript through online platforms such as 
+              <a target="_blank" href="https://www.scrimba.com/">Scrimba</a>, 
+              <a target="_blank" href="https://www.codecademy.com/">Codecademy</a>,
+              and 
+              <a target="_blank" href="https://www.freecodecamp.org/">freeCodeCamp</a>. 
+              These resources provided me with the knowledge and skills to continue
+              learning and growing as a programmer. As I worked through the lessons and
+              projects on these platforms, I gained confidence in my ability to code
+              and became increasingly motivated to continue learning and improving my skills.
+            </p>
+              <br/>
+              <br/>
+              <h3>Developers After Party</h3>
+              <p>In the end of 2022, I teamed up with a good friend of mine to start a project we call <a href="https://developersafterparty.com" target="_blank">Developers After Party</a>.
+                 We're both passionate about using our skills to help others, and we believe that we can make a difference by assisting
+                 small businesses and professionals individuals to establish a strong online presence. Our aim is to create designs that not only look 
+                 good but also represent their brand and deliver their message effectively. We believe that a website should be 
+                 more than just a digital storefront - it should be a reflection of the business or professional it represents.
+              </p>  
+              <br/>
+              <p>But that's not all - as part of this project, I'm also writing a tech-related newsletter.
+                 I've always been a curious person, and I love sharing my knowledge with others. So, if you're curious like me, you 
+                 should definitely check out my newsletter! It's filled with all kinds of interesting topics, and I think you'll really enjoy it.
+                 Go ahead and check it out - Just click <a href="https://developersafterparty.substack.com" target="_blank">here</a>!</p> 
+              <br/>
+            <p class="intro-p" >
+              This portfolio demonstrate the skills and knowledge I have acquired as a programmer.
+              As I continue to learn and grow in my field, I will add new projects to this portfolio
+              to showcase my progress and development.
+              I am always striving to improve my skills and expand my knowledge, and this portfolio serves as a reflection of that journey.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills-section">
+        <div class="skills-title"> 
+          <h2>
+            <span class="numb">03.</span>Skills
+            <div class="line"></div>
+          </h2>
+        </div>
+        <div class="skills-ctn">
+              <div class="skill-element">
+                <img src="./resources/images/html-5.png" alt="HTML5"/>
+                <span class="hidden lightgray">HTML 5</span>
+              </div>
+
+              <div class="skill-element">
+                <img src="./resources/images/css-3.png" alt="CSS3"/>
+                <span>CSS 3</span>
+              </div>
+
+              <div class="skill-element">
+                <img src="./resources/images/js.png" alt="JavaScript"/>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="skill-element">
+                <img src="./resources/images/github.png" alt="Github"/>
+                <span>GitHub</span>
+              </div>
+              
+              <div class="skill-element">
+                <img src="./resources/images/vscode.png" alt="VS Code"/>
+                <span>VS Code</span>
+              </div>
+
+              <div class="skill-element">
+                <img src="./resources/images/spline-logo.png" alt="Spline"/>
+                <span>Spline</span>
+              </div>
+
+              <div class="skill-element">
+                <img src="./resources/images/figma-logo.png" alt="Figma"/>
+                <span>Figma</span>
+              </div>
+
+              <div class="skill-element">
+                <img src="./resources/images/procreate-logo.png" alt="Procreate"/>
+                <span>Procreate</span>
+              </div>
+        </div>
+      </section>
+      <section id="work-section">
+        <div class="work-title"> 
+          <h2>
+            <span class="numb">04.</span>Work
+            <div class="line"></div>
+          </h2>
+        </div>
+        <div class="work-ctn">
+          <div class="work-lt">
+            <div class="prj-title">
+              <h3>First Project</h3>
+              <p>HTML CSS JavaScript</p>
+            </div>
+            <div class="project-img">
+              <img src="./resources/images/neon.png" alt="project" width="300px" height="auto"/>
+              <div class="img-border2" id="img-border2"></div>
+            </div>
+          </div>
+          <div class="work-rt">
+            <div class="prj-title">
+              <h3>Second Project</h3>
+              <p>Spline</p>
+            </div>
+            <div class="project-img">
+              <img src="./resources/images/neon.png" alt="project" width="300px" height="auto"/>
+              <div class="img-border3" id="img-border3"></div>
+            </div>
+          </div>
+          <div class="work-lt">
+            <div class="prj-title">
+              <h3>Third Project</h3>
+              <p>Procreate</p>
+            </div>
+            <div class="project-img">
+              <img src="./resources/images/neon.png" alt="project" width="300px" height="auto"/>
+              <div class="img-border2" id="img-border2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact-section">
+        <div class="contact-title"> 
+          <h2>
+            <span class="numb">05.</span>Contact
+            <div class="line"></div>
+          </h2>
+        </div>
+        <div class="contact-ctn">
+          <div class="contact-txt">
+              <h3>Get in touch...</h3>
+              <p>
+              If you want to say hi, 
+              discuss new projects, explore 
+              creative ideas or
+              build new opportunities, 
+              just shoot me an e-mail.
+              </p>
+              </br></br></br></br>
+              <p>e-mail: 
+                <a target="_blank" href="mailto:contact@andreifo.dev">contact@andreifo.dev
+                </a>
+              </p>
+              </br></br>
+              <p>phone: 
+                <a target="_blank" href="#">coming soon
+                </a>
+              </p>
+              <p class="location-p">Based in London.</p>
+          </div>
+          <div class="contact-form">
+            <form action="https://formsubmit.co/pro.andreifo@outlook.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" id="name" name="name" placeholder="Your name.." required>
+              <input type="text" id="email" name="email" placeholder="Your e-mail adress.." required>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:190px"></textarea>
+              <input type="submit" value="SEND">
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="socials-section">
+        <div class="mobile-socials">
+          <a target="_blank" href="https://github.com/andreifo-dev">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <title/>
+              <g data-name="Github 1" id="Github_1">
+                <g data-name="&lt;Group&gt;" id="_Group_">
+                  <path
+                  d="M12,.5A11.5,11.5,0,0,0,.5,12a11.82,11.82,0,0,0,9,11.5v-3h-1c-2.62,0-3.54-4-5-4,2.79,0,3.33,2,5,2a.89.89,0,0,0,1-1v-.35c-2.91-.82-5-3-5-5.65A5.26,5.26,0,0,1,6.07,7.84,3.16,3.16,0,0,1,6.5,4.5,5.26,5.26,0,0,1,8.88,6a9.14,9.14,0,0,1,6.24,0A5.26,5.26,0,0,1,17.5,4.5a3.16,3.16,0,0,1,.43,3.34A5.26,5.26,0,0,1,19.5,11.5c0,2.74-2.29,5-5.42,5.76a4.68,4.68,0,0,1,.42,2.24v4a11.82,11.82,0,0,0,9-11.5A11.5,11.5,0,0,0,12,.5Z"
+                  data-name="&lt;Path&gt;"
+                  id="_Path_"
+                  style="fill: none; stroke-linecap: round; stroke-linejoin: round;"/>
+               </g>
+             </g>
+           </svg>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/">
+            <svg
+              enable-background="new 0 0 183.836 179.8984"
+              id="linkedin"
+              version="1.1"
+              viewBox="0 0 183.836 179.8984"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g>
+                <path d="M21.5663,0C9.0703,0,0,8.6172,0,20.488c0,11.8636,8.8907,20.4748,21.1367,20.4748c6.3516,0,11.8244-2.0584,15.828-5.9552   c3.84-3.738,5.9572-8.8944,5.9532-14.6132C42.6367,8.3868,33.8555,0,21.5663,0z M31.3867,29.2732   c-2.4804,2.4144-6.0272,3.6896-10.25,3.6896C13.4023,32.9628,8,27.834,8,20.488C8,13.0196,13.4531,8,21.5663,8   c7.9337,0,13.172,4.9392,13.3516,12.49C34.9179,23.9376,33.664,27.0564,31.3867,29.2732z"/>
+                <path d="M3.836,179.8984h35.9531V47.7208H3.836V179.8984z M11.836,55.7208h19.9531v116.1776H11.836V55.7208z"/>
+                <path d="M134.5939,47.7208c-16.672,0-26.8792,5.7536-32.7932,11.166l-1.1247-11.166H60v132.1776h39.836v-69.4708   c0-2.992,1.2107-9.2052,1.9727-10.8456c4.8124-10.3652,11.3044-10.3652,21.1364-10.3652c11.3244,0,20.8909,10.6192,20.8909,23.1876   v67.494h40v-74.6816C183.836,65.7128,158.3087,47.7208,134.5939,47.7208z M175.836,171.8984h-24v-59.494   c0-16.9064-13.2305-31.1876-28.8909-31.1876c-10.0468,0-21.4336,0-28.3944,14.998c-1.4376,3.0996-2.7147,10.5292-2.7147,14.2128   v61.4708H68V55.7208h25.4415l1.6328,16.1776h6.5544l1.172-1.8908c2.668-4.2948,11.1056-14.2868,31.7932-14.2868   c19.8632,0,41.2421,15.488,41.2421,49.496V171.8984z"/>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </section>
+      <footer id="footer-section">
+        <div class="footer-ctn">
+          <h4>Copyright © 2023
+          </br>
+          Designed and developed by <span>Andrei Fo</span>.</h4>
+        </div>
+      </footer> 
+    </div> 
+    <script>
+      var icon = document.getElementById("secIcon");
+      secIcon.onclick = function() {
+        document.body.classList.toggle("light-mode-mobile");
+        if(document.body.classList.contains("light-mode-mobile")){
+          secIcon.src = "./resources/images/moon.png";
+        } else {
+          secIcon.src = "./resources/images/sun.png";
+        }
+      }
+    </script>
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick = function() {
+        document.body.classList.toggle("light-mode");
+        if(document.body.classList.contains("light-mode")){
+          icon.src = "./resources/images/moon.png";
+        } else {
+          icon.src = "./resources/images/sun.png";
+        }
+      }
+    </script>
+  </body>
